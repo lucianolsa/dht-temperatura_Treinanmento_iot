@@ -2,8 +2,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(69, 75, 75);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
 
 }
 h1{
     color: aliceblue;
+}
+
+.sensor-box{
+    background-color: aliceblue;
+    padding: 30px;
+    display: inline-block;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;   
+    border-radius: 5px;
 }
