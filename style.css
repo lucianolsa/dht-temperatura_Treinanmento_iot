@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(69, 75, 75);
+    background-color: rgb(46, 116, 247);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -17,7 +17,9 @@ h1{
     background-color: aliceblue;
     padding: 30px;
     display: inline-block;
-    box-shadow: 0 0 10px;
+    box-shadow: 10px 10px 18px 6px rgba(0,0,0,0.45);
+-webkit-box-shadow: 10px 10px 18px 6px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 10px 18px 6px rgba(0,0,0,0.45);
     border-radius: 10px;
 
 }
